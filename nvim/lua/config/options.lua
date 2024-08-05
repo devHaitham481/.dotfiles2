@@ -3,8 +3,7 @@
 -- Add any additional options here
 
 vim.opt.winbar = "%=%m %f"
-vim.opt.scrolloff = 20
-vim.opt.scroll=10
+vim.opt.scroll=20
 vim.opt.updatetime = 50
 vim.opt.tabstop = 2
 vim.opt.timeoutlen = 10

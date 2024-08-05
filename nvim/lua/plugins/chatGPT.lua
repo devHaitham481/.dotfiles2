@@ -3,7 +3,7 @@ return {
   event = "VeryLazy",
   config = function()
     require("chatgpt").setup({
-      api_key_cmd = "bw get item chatgpt-secret | grep -o '\"value\":\"[^\"]*' | sed 's/\"value\":\"//' | awk '{print $1}'"
+      model = "gpt-3.5-turbo",
     })
   end,
   dependencies = {
